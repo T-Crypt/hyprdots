@@ -132,6 +132,11 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
 
+| MacOS |
+| :-: |
+| ![MacOS#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/main/Source/assets/theme_macos_1.png) |
+| ![MacOS#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/main/Source/assets/theme_macos_2.png) |
+
 
 <div align = right> <br><br>
 
