@@ -80,6 +80,12 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 - Contributors themes
   - [x] Frosted-Glass by T-Crypt
   - [x] Gruvbox-Retro by T-Crypt
+  - [X] Windows-11 by T-Crypt
+
+| Windows-11 |
+| :-: |
+| ![Windows-11#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_1.png) |
+| ![Windows-11#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_2.png) |
 
 | Catppuccin-Mocha |
 | :-: |
@@ -131,10 +137,6 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
 
-| Windows-11 |
-| :-: |
-| ![Windows-11#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_1.png) |
-| ![Windows-11#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_2.png) |
 
 <div align = right> <br><br>
 
