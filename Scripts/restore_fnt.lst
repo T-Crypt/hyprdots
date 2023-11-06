@@ -14,6 +14,8 @@ Gtk_FrostedGlass|/usr/share/themes
 Gtk_FrostedGlass|$HOME/.themes
 Gtk_GruvboxRetro|/usr/share/themes
 Gtk_GruvboxRetro|$HOME/.themes
+Gtk_Windows-11|/usr/share/themes
+Gtk_Windows-11|$HOME/.themes
 Gtk_RosePine|/usr/share/themes
 Gtk_RosePine|$HOME/.themes
 Gtk_TokyoNight|/usr/share/themes
@@ -36,12 +38,16 @@ Icon_TelaPink|/usr/share/icons
 Icon_TelaPink|$HOME/.icons
 Icon_TelaPurple|/usr/share/icons
 Icon_TelaPurple|$HOME/.icons
+Icon_Windows-11|/usr/share/icons
+Icon_Windows-11|$HOME/.icons
 Icon_TelaYellow|/usr/share/icons
 Icon_TelaYellow|$HOME/.icons
 Icon_TelaBlue|/usr/share/icons
 Icon_TelaBlue|$HOME/.icons
 Icon_Gruvbox|/usr/share/icons
 Icon_Gruvbox|$HOME/.icons
+Cursor_Windows-11|/usr/share/icons
+CUrsor_Windows-11|$HOME/.icons
 Cursor_Gruvbox|/usr/share/icons
 Cursor_Gruvbox|$HOME/.icons
 Cursor_BibataIce|/usr/share/icons
