@@ -8,3 +8,4 @@
 0|Cyberpunk-Edge|~/.config/swww/Cyberpunk-Edge/david.jpg
 0|Frosted-Glass|~/.config/swww/Frosted-Glass/teal_mountain.png
 0|Gruvbox-Retro|~/.config/swww/Gruvbox-Retro/street.png
+0|MacOS|~/.config/swww/MacOS/10-12.jpg
