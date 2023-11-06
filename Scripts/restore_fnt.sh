@@ -41,5 +41,3 @@ done
 # Rebuild font cache
 echo "Rebuilding font cache..."
 fc-cache -f
-
-
