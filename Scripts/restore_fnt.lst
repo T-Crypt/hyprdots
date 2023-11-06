@@ -46,10 +46,10 @@ Icon_TelaBlue|/usr/share/icons
 Icon_TelaBlue|$HOME/.icons
 Icon_Gruvbox|/usr/share/icons
 Icon_Gruvbox|$HOME/.icons
-Cursor_Windows-11|/usr/share/icons
-Cursor_Windows-11|$HOME/.icons
 Cursor_Gruvbox|/usr/share/icons
 Cursor_Gruvbox|$HOME/.icons
 Cursor_BibataIce|/usr/share/icons
 Cursor_BibataIce|$HOME/.icons
+Cursor_Windows-11|/usr/share/icons
+Cursor_Windows-11|$HOME/.icons
 Code_Extensions|$HOME/.vscode
