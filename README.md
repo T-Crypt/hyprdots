@@ -78,6 +78,7 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
   - [ ] Nordic-Blue (maybe later)
 
 - Contributors themes
+  - [x] MacOS by T-Crypt
   - [x] Frosted-Glass by T-Crypt
   - [x] Gruvbox-Retro by T-Crypt
 
