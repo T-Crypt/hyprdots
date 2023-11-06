@@ -12,6 +12,8 @@ Gtk_DecayGreen|/usr/share/themes
 Gtk_DecayGreen|$HOME/.themes
 Gtk_FrostedGlass|/usr/share/themes
 Gtk_FrostedGlass|$HOME/.themes
+Gtk_MacOS|/usr/share/themes
+Gtk_MacOS|$HOME/.themes
 Gtk_GruvboxRetro|/usr/share/themes
 Gtk_GruvboxRetro|$HOME/.themes
 Gtk_RosePine|/usr/share/themes
@@ -32,6 +34,8 @@ Icon_TelaGreen|/usr/share/icons
 Icon_TelaGreen|$HOME/.icons
 Icon_TelaGrey|/usr/share/icons
 Icon_TelaGrey|$HOME/.icons
+Icon_MacOS|/usr/share/icons
+Icon_MacOS|$HOME/.themes
 Icon_TelaPink|/usr/share/icons
 Icon_TelaPink|$HOME/.icons
 Icon_TelaPurple|/usr/share/icons
@@ -42,6 +46,8 @@ Icon_TelaBlue|/usr/share/icons
 Icon_TelaBlue|$HOME/.icons
 Icon_Gruvbox|/usr/share/icons
 Icon_Gruvbox|$HOME/.icons
+Cursor_MacOS|/usr/share/icons
+Cursor_MacOS|$HOME/.icons
 Cursor_Gruvbox|/usr/share/icons
 Cursor_Gruvbox|$HOME/.icons
 Cursor_BibataIce|/usr/share/icons
