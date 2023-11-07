@@ -81,6 +81,12 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
   - [x] MacOS by T-Crypt
   - [x] Frosted-Glass by T-Crypt
   - [x] Gruvbox-Retro by T-Crypt
+  - [X] Windows-11 by T-Crypt
+
+| Windows-11 |
+| :-: |
+| ![Windows-11#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_1.png) |
+| ![Windows-11#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_3.png) |
 
 | Catppuccin-Mocha |
 | :-: |

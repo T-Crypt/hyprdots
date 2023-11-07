@@ -16,6 +16,8 @@ Gtk_MacOS|/usr/share/themes
 Gtk_MacOS|$HOME/.themes
 Gtk_GruvboxRetro|/usr/share/themes
 Gtk_GruvboxRetro|$HOME/.themes
+Gtk_Windows-11|/usr/share/themes
+Gtk_Windows-11|$HOME/.themes
 Gtk_RosePine|/usr/share/themes
 Gtk_RosePine|$HOME/.themes
 Gtk_TokyoNight|/usr/share/themes
@@ -40,6 +42,8 @@ Icon_TelaPink|/usr/share/icons
 Icon_TelaPink|$HOME/.icons
 Icon_TelaPurple|/usr/share/icons
 Icon_TelaPurple|$HOME/.icons
+Icon_Windows-11|/usr/share/icons
+Icon_Windows-11|$HOME/.icons
 Icon_TelaYellow|/usr/share/icons
 Icon_TelaYellow|$HOME/.icons
 Icon_TelaBlue|/usr/share/icons
@@ -52,4 +56,6 @@ Cursor_Gruvbox|/usr/share/icons
 Cursor_Gruvbox|$HOME/.icons
 Cursor_BibataIce|/usr/share/icons
 Cursor_BibataIce|$HOME/.icons
+Cursor_Windows-11|/usr/share/icons
+Cursor_Windows-11|$HOME/.icons
 Code_Extensions|$HOME/.vscode
