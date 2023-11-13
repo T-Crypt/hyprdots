@@ -24,7 +24,7 @@ if pkg_installed sddm
         sudo tar -xzf ${CloneDir}/Source/arcs/Sddm_HTB.tar.gz -C /usr/share/sddm/themes/
         sudo touch /etc/sddm.conf.d/kde_settings.conf
         sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.t2.bkp
-        sudo cp /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
+        sudo cp /usr/share/sddm/themes/Sweet-HTB/kde_settings.conf /etc/sddm.conf.d/
         setfacl -m u:sddm:x /home/${USER}
     fi
 
