@@ -35,7 +35,6 @@ if pkg_installed sddm
     else
         echo "WARNING: SDDM is not installed..."
     fi
-}
 
 
 # grub
