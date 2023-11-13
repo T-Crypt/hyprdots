@@ -82,6 +82,11 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
   - [x] Frosted-Glass by T-Crypt
   - [x] Gruvbox-Retro by T-Crypt
 
+| Hackthebox |
+| :-: |
+| ![Hackthebox#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/Hackthebox/Source/assets/theme_hackthebox_1.png) |
+| ![Hackthebox#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/Hackthebox/Source/assets/theme_hackthebox_2.png) |
+
 | Catppuccin-Mocha |
 | :-: |
 | ![Catppuccin-Mocha#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_1.png) |
