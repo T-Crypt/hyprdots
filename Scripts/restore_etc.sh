@@ -10,14 +10,10 @@ if [ $? -ne 0 ] ; then
     exit 1
 fi
 
-# Function to check if a package is installed
-pkg_installed() {
-    dpkg -l $1 &> /dev/null
-}
 
-# Function to configure SDDM
-configure_sddm() {
-    if pkg_installed sddm; then
+if pkg_installed sddm 
+     then
+        
         read -p "Do you want to use the Hack the Box SDDM theme? (y/n): " use_htb_theme
         if [[ $use_htb_theme == "y" || $use_htb_theme == "Y" ]]; then
             theme_tar="Sddm_HTB.tar.gz"
@@ -41,8 +37,6 @@ configure_sddm() {
     fi
 }
 
-# Call the function to configure SDDM
-configure_sddm
 
 # grub
 if pkg_installed grub
