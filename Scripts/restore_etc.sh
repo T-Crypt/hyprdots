@@ -10,33 +10,39 @@ if [ $? -ne 0 ] ; then
     exit 1
 fi
 
+# Function to check if a package is installed
+pkg_installed() {
+    dpkg -l $1 &> /dev/null
+}
 
-# sddm
-if pkg_installed sddm
-    then
+# Function to configure SDDM
+configure_sddm() {
+    if pkg_installed sddm; then
+        read -p "Do you want to use the Hack the Box SDDM theme? (y/n): " use_htb_theme
+        if [[ $use_htb_theme == "y" || $use_htb_theme == "Y" ]]; then
+            theme_tar="Sddm_HTB.tar.gz"
+            theme_name="Sweet-HTB"
+        else
+            theme_tar="Sddm_Corners.tar.gz"
+            theme_name="corners"
+        fi
 
-    if [ ! -d /etc/sddm.conf.d ] ; then
-        sudo mkdir -p /etc/sddm.conf.d
-    fi
-
-    if [ ! -f /etc/sddm.conf.d/kde_settings.t2.bkp ] ; then
-        echo "configuring sddm..."
-        sudo tar -xzf ${CloneDir}/Source/arcs/Sddm_HTB.tar.gz -C /usr/share/sddm/themes/
-        sudo touch /etc/sddm.conf.d/kde_settings.conf
-        sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.t2.bkp
-        sudo cp /usr/share/sddm/themes/Sweet-HTB/kde_settings.conf /etc/sddm.conf.d/
+        echo "Configuring SDDM..."
+        sudo tar -xzf ${CloneDir}/Source/arcs/${theme_tar} -C /usr/share/sddm/themes/
+        sudo cp /usr/share/sddm/themes/${theme_name}/kde_settings.conf /etc/sddm.conf.d/
         setfacl -m u:sddm:x /home/${USER}
+
+        if [ -f ${CloneDir}/Source/misc/${USER}.face.icon ]; then
+            sudo cp ${CloneDir}/Source/misc/${USER}.face.icon /usr/share/sddm/faces/
+            echo "Avatar set for ${USER}..."
+        fi
+    else
+        echo "WARNING: SDDM is not installed..."
     fi
+}
 
-    if [ ! -f /usr/share/sddm/faces/${USER}.face.icon ] && [ -f ${CloneDir}/Source/misc/${USER}.face.icon ] ; then
-        sudo cp ${CloneDir}/Source/misc/${USER}.face.icon /usr/share/sddm/faces/
-        echo "avatar set for ${USER}..."
-    fi
-
-else
-    echo "WARNING: sddm is not installed..."
-fi
-
+# Call the function to configure SDDM
+configure_sddm
 
 # grub
 if pkg_installed grub
