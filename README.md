@@ -85,8 +85,8 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Windows-11 |
 | :-: |
-| ![Windows-11#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_1.png) |
-| ![Windows-11#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/Windows-11/Source/assets/theme_windows_3.png) |
+| ![Windows-11#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/MacOS-/-Windows/Source/assets/theme_windows_1.png) |
+| ![Windows-11#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/MacOS-/-Windows/Source/assets/theme_windows_3.png) |
 
 | Catppuccin-Mocha |
 | :-: |
@@ -140,8 +140,8 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | MacOS |
 | :-: |
-| ![MacOS#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/test/Source/assets/theme_macos_1.png) |
-| ![MacOS#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/test/Source/assets/theme_macos_2.png) |
+| ![MacOS#1](https://raw.githubusercontent.com/T-Crypt/hyprdots/MacOS-/-Windows/Source/assets/theme_macos_1.png) |
+| ![MacOS#2](https://raw.githubusercontent.com/T-Crypt/hyprdots/MacOS-/-Windows/Source/assets/theme_macos_2.png) |
 
 
 <div align = right> <br><br>
